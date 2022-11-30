@@ -381,9 +381,12 @@
 "Assets/Scripts/CameraFollow2D.cs"
 "Assets/Scripts/damage.cs"
 "Assets/Scripts/Enemy.cs"
+"Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/PlayerCombat.cs"
 "Assets/Scripts/Shooting3.cs"
 "Assets/Scripts/Shoting.cs"
+"Assets/Scripts/VectorValue.cs"
 "Assets/TopDown 2D RPG BE3/ReadMe/Scripts/ReadmeBE3.cs"
 -langversion:9.0
 
