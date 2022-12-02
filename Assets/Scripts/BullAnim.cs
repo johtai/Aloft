@@ -9,6 +9,7 @@ public class BullAnim : MonoBehaviour
   public float timeDestroy = 3f;
   public float speed = 3f;
   public Rigidbody2D rb;
+  public GameObject hitEffect;
 
 
     void Start()
@@ -26,11 +27,14 @@ public class BullAnim : MonoBehaviour
 
   private void OnCollisionEnter2D(Collision2D collision) 
   {
-    if(collision.gameObject.CompareTag("Enemy"))
-    {
-
+    if(!collision.gameObject.CompareTag("Player"))
+    {       
+      GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
       Destroy(gameObject);//уничтожаем объект со скриптом
+      Destroy(effect, 5f);
     }
+
+
   }
 
   void DestroyBullet()

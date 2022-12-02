@@ -150,6 +150,7 @@ MonoBehaviour:
   timeDestroy: 3
   speed: 3
   rb: {fileID: 0}
+  hitEffect: {fileID: 8259577564978962260, guid: fdf179e8e2e8b4f40a9b6969793943c6, type: 3}
 --- !u!82 &6230102728402215144
 AudioSource:
   m_ObjectHideFlags: 0
