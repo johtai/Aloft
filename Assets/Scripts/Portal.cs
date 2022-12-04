@@ -10,7 +10,7 @@ public class Portal : MonoBehaviour
     public void GoPortal()
     {
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 

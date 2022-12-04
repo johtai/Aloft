@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     public Animator animator;
 
     //For Movement---
-    public Transform player;
+    //public Transform player;
     private Rigidbody2D rb;
     private BoxCollider2D bc;
     private Vector2 movement;
@@ -27,10 +27,10 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         //--For Move---
-        Vector3 direction = player.position - transform.position;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        direction.Normalize();
-        movement = direction;
+        //Vector3 direction = player.position - transform.position;
+        //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        //direction.Normalize();
+        //movement = direction;
         //-----------------
     }
 
