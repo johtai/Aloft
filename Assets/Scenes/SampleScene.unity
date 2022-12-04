@@ -9903,7 +9903,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58.42, y: 15.33}
+  m_AnchoredPosition: {x: -58, y: 15}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1190418109
@@ -16850,7 +16850,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2021739806}
-  player: {fileID: 2077572902}
 --- !u!50 &2021739813
 Rigidbody2D:
   serializedVersion: 4
@@ -17326,7 +17325,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2133618584}
-  player: {fileID: 2077572902}
 --- !u!61 &2133618588
 BoxCollider2D:
   m_ObjectHideFlags: 0
