@@ -20,6 +20,8 @@ public class BasicMovement : MonoBehaviour
     void FixedUpdate()
     {
         MovementLogic();
+        Sprint();
+
     }
 
  private void MovementLogic()
@@ -33,6 +35,23 @@ public class BasicMovement : MonoBehaviour
         //transform.position = transform.position + movement * Time.deltaTime;
     }
 
+
+    void Sprint()
+    {
+
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            
+            Speed = 100;
+        }
+
+        else if(!Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Speed = 50;
+        }
+
+
+    }
 
 
 }

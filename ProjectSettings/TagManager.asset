@@ -13,8 +13,8 @@ TagManager:
   - EnemyLayer
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - PlayerLayer
   - 
   - 
   - 
