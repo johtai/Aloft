@@ -23,7 +23,6 @@ public class ButtonTrigger : MonoBehaviour
 
         if(other.CompareTag("Player"))
         {
-            Debug.Log("No Trig");
             anim.SetTrigger("isTriggered");
         }
         

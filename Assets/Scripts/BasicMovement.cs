@@ -6,6 +6,7 @@ using UnityEngine;
 public class BasicMovement : MonoBehaviour
 {
     public float Speed = 10f;
+    public float SpeedShift = 200f;
     public Animator animator;
     public VectorValue pos;
     private Rigidbody2D _rb;
@@ -27,7 +28,6 @@ public class BasicMovement : MonoBehaviour
  private void MovementLogic()
     {
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f);
-
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Magnitude", movement.magnitude);

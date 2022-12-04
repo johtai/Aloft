@@ -392,6 +392,8 @@
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/PlayerCombat.cs"
+"Assets/Scripts/Portal.cs"
+"Assets/Scripts/PortalTrigger.cs"
 "Assets/Scripts/Shoting.cs"
 "Assets/Scripts/VectorValue.cs"
 "Assets/TopDown 2D RPG BE3/ReadMe/Scripts/ReadmeBE3.cs"

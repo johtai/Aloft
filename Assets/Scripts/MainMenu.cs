@@ -15,29 +15,17 @@ public void PlayGame()
 
 void Update()
 {
-if(Input.GetKeyDown(KeyCode.Escape))
-{
-    //Debug.Log("Игра Закрылась");
+    if(Input.GetKeyDown(KeyCode.Escape))
+    {
     Application.Quit();
-
-}
-}
-
-
-
-
-public void ExitGame()
-{
-    //Debug.Log("Игра Закрылась");
-    Application.Quit();
+    }
 }
 
-public void ExitToMainMenu()
-{
-
-SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-}
-
+    public void ExitGame()
+    {   
+        Application.Quit();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
 
 
 }
