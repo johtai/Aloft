@@ -18,7 +18,7 @@ public class WorldGeneration : MonoBehaviour
         int x0 = (int)Math.Ceiling(player.position.x);
         int y0 = (int)Math.Ceiling(player.position.y);
 
-        for (int x = -5; x < 15; x++)
+        for (int x = -7; x < 15; x++)
         {
             for (int y = -5; y < 10; y++)
             {
@@ -36,7 +36,7 @@ public class WorldGeneration : MonoBehaviour
         int x0 = (int)Math.Ceiling(player.position.x);
         int y0 = (int)Math.Ceiling(player.position.y);
 
-        for (int x = -5; x < 15; x++)
+        for (int x = -7; x < 15; x++)
         {
             for (int y = -5; y < 10; y++)
             {
